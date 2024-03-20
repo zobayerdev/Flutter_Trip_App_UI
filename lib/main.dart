@@ -1,9 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_trip_app_ui/home.dart';
+import 'package:device_preview/device_preview.dart';
 
-void main() {
-  runApp(const MyApp());
-}
+void main() => runApp(
+      DevicePreview(
+        enabled: true,
+        tools: const [
+          ...DevicePreview.defaultTools,
+        ],
+        builder: (context) => MyApp(), // Wrap your app
+      ),
+    );
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
