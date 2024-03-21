@@ -38,17 +38,20 @@ class _HomePageState extends State<HomePage> {
               page: 2,
               image: 'lib/assets/two.jpg',
               title: 'Beach',
-              description: 'This is a beach description.'),
+              description:
+                  'Beaches are serene landscapes where the sea meets the shore, offering stretches of soft sand or pebble-covered coastlines that glisten under the sun embrace. They serve as a natural playground for humans and habitat for marine life, where the rhythmic waves orchestrate a calming melody. Beaches are not just natural wonders but also vital ecosystems that buffer coastal regions from erosion and storms.'),
           MakePage(
               page: 3,
               image: 'lib/assets/three.jpg',
               title: 'Mountain',
-              description: 'This is a mountain description.'),
+              description:
+                  'Mountains stand tall and majestic, their rugged peaks piercing the sky, showcasing natures grandeur and resilience. These towering formations provide a haven for diverse flora and fauna, each ecosystem unique to its altitude and climate. Mountains are more than geological features; they are sacred symbols of challenge and inspiration, inviting adventurers to conquer their heights and discover the profound beauty of the world below.'),
           MakePage(
               page: 4,
               image: 'lib/assets/four.jpg',
-              title: 'Desert',
-              description: 'This is a desert description.'),
+              title: 'Panther',
+              description:
+                  'The panther, with its sleek, black coat and piercing green eyes, moves through the shadows with unmatched grace and power. This solitary predator, which is actually a melanistic variant of leopards or jaguars, dominates its territory with stealth and strength, embodying the essence of the wild. Revered and feared, the panthers mysterious allure has made it a symbol of the dark and untamed parts of the natural world.'),
         ],
       ),
     );
