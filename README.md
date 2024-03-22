@@ -1,12 +1,2 @@
-# flutter_trip_app_ui
-
-This application present by trip apps. Anyone can download easily that's project source code.
-
-## Getting Started
-you can get all packages from https://www.flutter.dev
-search all packages then install and read how to use any packages.
-Thank you,
-Md. Zobayer Hasan Nayem
-Software Engineer
-Trodev
-website: https://www.trodev.com
+# Flutter Trip App UI
+![621shots_so](https://github.com/zobayerdev/Flutter_Trip_App_UI/assets/74914169/422e539d-35cb-4563-8a35-6be675bb58b7)
