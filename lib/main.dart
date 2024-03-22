@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+  import 'package:flutter/material.dart';
 import 'package:flutter_trip_app_ui/home.dart';
 import 'package:device_preview/device_preview.dart';
 
@@ -11,6 +11,11 @@ void main() => runApp(
         builder: (context) => MyApp(), // Wrap your app
       ),
     );
+//   void main ()
+//   {
+//     runApp(MyApp());
+//   }
+
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
