@@ -1,4 +1,5 @@
-  import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_trip_app_ui/app_behavour.dart';
 import 'package:flutter_trip_app_ui/home.dart';
 import 'package:device_preview/device_preview.dart';
 
@@ -16,7 +17,6 @@ void main() => runApp(
 //     runApp(MyApp());
 //   }
 
-
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -30,6 +30,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
+      scrollBehavior: AppScrollBehavior(),
       home: HomePage(),
     );
   }
